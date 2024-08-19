@@ -61,7 +61,7 @@ You can explore the movie plot embeddings in 2D using the [Atlas tool](https://w
 
 ## 📈 Data Visualization
 Check out the Atlas tool to explore the embedding space. Each point represents a movie, and similar movies naturally form clusters.
-![Screenshot of movie clusters.](https://drive.google.com/file/d/1cWxQ2IcVoz_Xg4POEQlKzTlwDtwIs79z/view?usp=sharing)
+![Screenshot of movie clusters.](/atlas.png)
 
 ## 🤝 Contributing
 If you'd like to contribute to this project, feel free to submit pull requests or open issues. Your contributions are welcome!
