@@ -74,9 +74,10 @@ plot_embeddings = [
 ]
 
 # Visualize the embeddings using the Atlas tool
+## Plot The Embeddings Using Atlas
 data = movies[["Title", "Genre"]].to_dict("records")
 from nomic import atlas
-project = atlas.map_embeddings(embeddings=np.array(plot_embeddings), data=data)
+project = atlas.map_data(embeddings=np.array(plot_embeddings), data=data)
 
 # Define a function to calculate distances between embeddings
 def distances_from_embeddings(
