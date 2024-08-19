@@ -1,0 +1,41 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore environment variables file
+.env
+
+# Ignore virtual environment directory
+venv/
+env/
+myenv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore cached files
+*.pkl
+*.pickle
+
+# Ignore Atlas mapping files (if generated)
+*.atlas
+
+# Ignore the requirements.txt file generated from pip freeze
+requirements.txt
+
+# Ignore system-specific files
+.DS_Store
+
+# Ignore logs, coverage, and build artifacts
+*.log
+coverage/
+build/
+dist/
+
+# Ignore other IDE-specific files
+.idea/
+.vscode/
+
+# Ignore MacOS specific file
+.DS_Store
+
