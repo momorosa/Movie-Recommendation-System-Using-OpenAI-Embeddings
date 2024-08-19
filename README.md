@@ -20,21 +20,21 @@ To run this project, you'll need:
 
 ### Installation
 1. Clone the repository:
-'''
+```
 git clone https://github.com/yourusername/movierecommendation.git
 cd movierecommendation
-'''
+```
 
 2. Install the required libraries:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 3. Set up your .env file:
 Create a .env file in the root directory and add your OpenAI API key:
-'''
+```
 OPENAI_API_KEY=your_openai_api_key
-'''
+```
 
 4. Download the dataset:
 Download the dataset from Kaggle:
@@ -44,15 +44,15 @@ Place the movie_plots.csv file in the root directory.
 ### Usage
 1. Generate Embeddings:
 Run the script to generate embeddings for the movie plots:
-'''
+```
 python app.py
-'''
+```
 
 2. Get Movie Recommendations:
 Use the following command to get movie recommendations based on a specific movie title:
-'''
+```
 python3 app.py -p "Title of the Movie" -n 5
-'''
+```
 Replace "Title of the Movie" with the movie of your choice. This will display 5 similar movie recommendations based on plot similarity.
 
 3. Visualize the Embeddings:
@@ -61,6 +61,7 @@ You can explore the movie plot embeddings in 2D using the [Atlas tool](https://w
 
 ## 📈 Data Visualization
 Check out the Atlas tool to explore the embedding space. Each point represents a movie, and similar movies naturally form clusters.
+![Screenshot of movie clusters.](https://drive.google.com/file/d/1cWxQ2IcVoz_Xg4POEQlKzTlwDtwIs79z/view?usp=sharing)
 
 ## 🤝 Contributing
 If you'd like to contribute to this project, feel free to submit pull requests or open issues. Your contributions are welcome!
